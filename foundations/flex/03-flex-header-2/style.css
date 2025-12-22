@@ -34,7 +34,7 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 8px 8px;
 }
 
 a {
@@ -42,7 +42,28 @@ a {
   text-decoration: none;
   color: rebeccapurple;
 }
-
 ul {
   list-style-type: none;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px;
+  margin: 8px;
+
+}
+.left, .right{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
