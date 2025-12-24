@@ -6,6 +6,8 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
